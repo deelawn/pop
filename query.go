@@ -24,6 +24,7 @@ type Query struct {
 	havingClauses           havingClauses
 	Paginator               *Paginator
 	Connection              *Connection
+	OptimizeCount           bool
 }
 
 // Clone will fill targetQ query with the connection used in q, if
@@ -41,6 +42,7 @@ func (q *Query) Clone(targetQ *Query) {
 	targetQ.groupClauses = q.groupClauses
 	targetQ.havingClauses = q.havingClauses
 	targetQ.addColumns = q.addColumns
+	targetQ.OptimizeCount = q.OptimizeCount
 
 	if q.Paginator != nil {
 		paginator := *q.Paginator
@@ -178,10 +180,11 @@ func (q *Query) Limit(limit int) *Query {
 // Q will create a new "empty" query from the current connection.
 func Q(c *Connection) *Query {
 	return &Query{
-		RawSQL:      &clause{},
-		Connection:  c,
-		eager:       c.eager,
-		eagerFields: c.eagerFields,
+		RawSQL:        &clause{},
+		Connection:    c,
+		eager:         c.eager,
+		eagerFields:   c.eagerFields,
+		OptimizeCount: c.OptimizeCount,
 	}
 }
 
