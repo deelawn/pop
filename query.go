@@ -24,6 +24,7 @@ type Query struct {
 	havingClauses           havingClauses
 	Paginator               *Paginator
 	Connection              *Connection
+	DisableCount            bool
 	OptimizeCount           bool
 }
 
@@ -42,6 +43,7 @@ func (q *Query) Clone(targetQ *Query) {
 	targetQ.groupClauses = q.groupClauses
 	targetQ.havingClauses = q.havingClauses
 	targetQ.addColumns = q.addColumns
+	targetQ.DisableCount = q.DisableCount
 	targetQ.OptimizeCount = q.OptimizeCount
 
 	if q.Paginator != nil {

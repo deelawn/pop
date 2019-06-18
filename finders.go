@@ -323,6 +323,11 @@ func (q Query) Count(model interface{}) (int, error) {
 //
 //	q.Where("sex = ?", "f").Count(&User{}, "name")
 func (q Query) CountByField(model interface{}, field string) (int, error) {
+	if q.DisableCount {
+		log(logging.Warn, "Count is disabled for this query and will not be executed")
+		return 0, nil
+	}
+
 	tmpQuery := Q(q.Connection)
 	q.Clone(tmpQuery) //avoid meddling with original query
 
