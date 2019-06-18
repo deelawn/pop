@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/gobuffalo/pop/columns"
+	"github.com/deelawn/pop/columns"
 	"github.com/markbates/oncer"
 )
 

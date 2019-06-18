@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gobuffalo/pop/logging"
+	"github.com/deelawn/pop/logging"
 )
 
 // Query is the main value that is used to build up a query

@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/gobuffalo/nulls"
-	"github.com/gobuffalo/pop/logging"
+	"github.com/deelawn/pop/logging"
 	"github.com/gobuffalo/validate"
 	"github.com/gobuffalo/validate/validators"
 	"github.com/gofrs/uuid"
@@ -374,7 +374,7 @@ type Student struct {
 	UpdatedAt time.Time `json:"updated_at" db:"updated_at"`
 }
 
-// https://github.com/gobuffalo/pop/issues/302
+// https://github.com/deelawn/pop/issues/302
 type Parent struct {
 	ID        uuid.UUID  `json:"id" db:"id"`
 	CreatedAt time.Time  `json:"created_at" db:"created_at"`

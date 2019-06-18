@@ -1,7 +1,7 @@
 <p align="center"><img src="logo.png" width="150" height="150"></p>
 
 <p align="center">
-    <a href="https://godoc.org/github.com/gobuffalo/pop"><img src="https://godoc.org/github.com/gobuffalo/pop?status.svg" alt="GoDoc" /></a>
+    <a href="https://godoc.org/github.com/deelawn/pop"><img src="https://godoc.org/github.com/deelawn/pop?status.svg" alt="GoDoc" /></a>
     <a href="https://dev.azure.com/stanislasmichalak/pop/_build/latest?definitionId=1&branchName=master"><img src="https://dev.azure.com/stanislasmichalak/pop/_apis/build/status/gobuffalo.pop?branchName=master" alt="Build Status" /></a>
 </p>
 

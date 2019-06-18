@@ -6,7 +6,7 @@ import (
 
 	"github.com/gobuffalo/flect"
 	"github.com/gobuffalo/nulls"
-	"github.com/gobuffalo/pop/columns"
+	"github.com/deelawn/pop/columns"
 	"github.com/gobuffalo/x/defaults"
 )
 

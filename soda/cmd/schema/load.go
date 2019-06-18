@@ -3,7 +3,7 @@ package schema
 import (
 	"os"
 
-	"github.com/gobuffalo/pop"
+	"github.com/deelawn/pop"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

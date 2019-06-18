@@ -1,4 +1,4 @@
-# github.com/gobuffalo/pop/nulls
+# github.com/deelawn/pop/nulls
 
 DEPRECATED: use github.com/gobuffalo/nulls instead.
 
@@ -9,7 +9,7 @@ The real benefit of this packages comes in its implementation of `MarshalJSON` a
 ## Installation
 
 ``` bash
-$ go get github.com/gobuffalo/pop/nulls
+$ go get github.com/deelawn/pop/nulls
 ```
 
 ## Supported Datatypes

@@ -2,7 +2,7 @@ Hello! Thank you so much for your interest in Pop. The fact you care enough to b
 
 ## Prerequisites
 
-* Check the documentation resources [gobuffalo.io](https://gobuffalo.io/docs/db) and [godoc.org](https://godoc.org/github.com/gobuffalo/pop) to see if there are docs, examples, etc. that might solve your problem quicker.
+* Check the documentation resources [gobuffalo.io](https://gobuffalo.io/docs/db) and [godoc.org](https://godoc.org/github.com/deelawn/pop) to see if there are docs, examples, etc. that might solve your problem quicker.
 * Make sure to provide as much information as possible (stack traces, error logs, code examples, screenshots...), so we can better help you.
 * Support question are better asked in one of the following locations:
   * On [#buffalo](https://gobuffalo.io/docs/slack) Slack channel.

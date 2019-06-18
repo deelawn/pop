@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/gobuffalo/pop/soda/cmd/generate"
+	"github.com/deelawn/pop/soda/cmd/generate"
 	"github.com/spf13/cobra"
 )
 

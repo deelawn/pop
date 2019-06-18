@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/fatih/color"
-	"github.com/gobuffalo/pop/logging"
+	"github.com/deelawn/pop/logging"
 	"github.com/markbates/oncer"
 )
 

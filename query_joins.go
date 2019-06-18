@@ -1,7 +1,7 @@
 package pop
 
 import (
-	"github.com/gobuffalo/pop/logging"
+	"github.com/deelawn/pop/logging"
 	"github.com/markbates/oncer"
 )
 

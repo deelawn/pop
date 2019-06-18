@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gobuffalo/pop/associations"
-	"github.com/gobuffalo/pop/logging"
+	"github.com/deelawn/pop/associations"
+	"github.com/deelawn/pop/logging"
 	"github.com/gofrs/uuid"
 	"github.com/pkg/errors"
 )

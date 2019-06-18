@@ -13,8 +13,8 @@ import (
 	_ "github.com/cockroachdb/cockroach-go/crdb" // Load CockroachdbQL/postgres Go driver which also loads github.com/lib/pq
 	"github.com/gobuffalo/fizz"
 	"github.com/gobuffalo/fizz/translators"
-	"github.com/gobuffalo/pop/columns"
-	"github.com/gobuffalo/pop/logging"
+	"github.com/deelawn/pop/columns"
+	"github.com/deelawn/pop/logging"
 	"github.com/jmoiron/sqlx"
 	"github.com/markbates/going/defaults"
 	"github.com/pkg/errors"

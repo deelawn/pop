@@ -6,8 +6,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gobuffalo/pop/columns"
-	"github.com/gobuffalo/pop/logging"
+	"github.com/deelawn/pop/columns"
+	"github.com/deelawn/pop/logging"
 	"github.com/jmoiron/sqlx"
 )
 

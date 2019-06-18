@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	"github.com/gobuffalo/genny"
-	"github.com/gobuffalo/pop"
-	"github.com/gobuffalo/pop/genny/config"
+	"github.com/deelawn/pop"
+	"github.com/deelawn/pop/genny/config"
 	"github.com/markbates/going/defaults"
 	"github.com/markbates/oncer"
 	"github.com/spf13/cobra"
@@ -54,16 +54,16 @@ var ConfigCmd = &cobra.Command{
 
 // GenerateConfig generates pop configuration files.
 //
-// Deprecated: use github.com/gobuffalo/pop/genny/config instead.
+// Deprecated: use github.com/deelawn/pop/genny/config instead.
 func GenerateConfig(cfgFile string, data map[string]interface{}) error {
-	oncer.Deprecate(0, "generate.GenerateConfig", "Use github.com/gobuffalo/pop/genny/config instead.")
+	oncer.Deprecate(0, "generate.GenerateConfig", "Use github.com/deelawn/pop/genny/config instead.")
 	return Config(cfgFile, data)
 }
 
 // Config generates pop configuration files.
-// Deprecated: use github.com/gobuffalo/pop/genny/config instead.
+// Deprecated: use github.com/deelawn/pop/genny/config instead.
 func Config(cfgFile string, data map[string]interface{}) error {
-	oncer.Deprecate(0, "generate.Config", "Use github.com/gobuffalo/pop/genny/config instead.")
+	oncer.Deprecate(0, "generate.Config", "Use github.com/deelawn/pop/genny/config instead.")
 	pwd, _ := os.Getwd()
 
 	run := genny.WetRunner(context.Background())

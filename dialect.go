@@ -4,7 +4,7 @@ import (
 	"io"
 
 	"github.com/gobuffalo/fizz"
-	"github.com/gobuffalo/pop/columns"
+	"github.com/deelawn/pop/columns"
 )
 
 type dialect interface {

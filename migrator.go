@@ -9,7 +9,7 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/gobuffalo/pop/logging"
+	"github.com/deelawn/pop/logging"
 	"github.com/pkg/errors"
 )
 

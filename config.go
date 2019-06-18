@@ -9,7 +9,7 @@ import (
 	"text/template"
 
 	"github.com/gobuffalo/envy"
-	"github.com/gobuffalo/pop/logging"
+	"github.com/deelawn/pop/logging"
 	"github.com/pkg/errors"
 	yaml "gopkg.in/yaml.v2"
 )

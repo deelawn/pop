@@ -17,7 +17,7 @@ import (
 	"github.com/gobuffalo/flect"
 	nflect "github.com/gobuffalo/flect/name"
 	"github.com/gobuffalo/makr"
-	"github.com/gobuffalo/pop"
+	"github.com/deelawn/pop"
 	"github.com/markbates/going/defaults"
 	"github.com/pkg/errors"
 )
@@ -226,7 +226,7 @@ func newModel(name, structTag, modelPath string) (model, error) {
 	m := model{
 		Package:               filepath.Base(modelPath),
 		ModelPath:             modelPath,
-		Imports:               []string{"time", "github.com/gobuffalo/pop", "github.com/gobuffalo/validate"},
+		Imports:               []string{"time", "github.com/deelawn/pop", "github.com/gobuffalo/validate"},
 		Name:                  nflect.New(name),
 		Attributes:            []attribute{},
 		ValidatableAttributes: []attribute{},

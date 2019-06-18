@@ -11,8 +11,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/gobuffalo/pop/columns"
-	"github.com/gobuffalo/pop/logging"
+	"github.com/deelawn/pop/columns"
+	"github.com/deelawn/pop/logging"
 	"github.com/gofrs/uuid"
 	"github.com/jmoiron/sqlx"
 	"github.com/pkg/errors"

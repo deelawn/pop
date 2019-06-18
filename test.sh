@@ -65,7 +65,7 @@ function debug_test {
     ./tsoda create -e $SODA_DIALECT -c ./database.yml
     ./tsoda migrate -e $SODA_DIALECT -c ./database.yml
     echo "Test and debug..."
-    dlv test github.com/gobuffalo/pop
+    dlv test github.com/deelawn/pop
 }
 
 dialects=("postgres" "cockroach" "mysql" "sqlite")

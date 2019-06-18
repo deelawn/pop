@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gobuffalo/pop/fix"
+	"github.com/deelawn/pop/fix"
 	"github.com/spf13/cobra"
 )
 

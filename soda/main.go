@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/gobuffalo/pop/soda/cmd"
+	"github.com/deelawn/pop/soda/cmd"
 )
 
 func main() {

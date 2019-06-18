@@ -3,7 +3,7 @@ package pop
 import (
 	"time"
 
-	"github.com/gobuffalo/pop/slices"
+	"github.com/deelawn/pop/slices"
 )
 
 type Cake struct {
